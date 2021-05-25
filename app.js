@@ -6,6 +6,7 @@ const blogRouts = require('./routers/blogs')
 
 app.set('view engine','ejs');
 // app.set('views','templates');
+
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 8000;
