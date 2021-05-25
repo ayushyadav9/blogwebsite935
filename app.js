@@ -10,12 +10,13 @@ app.set('view engine','ejs');
 
 let port = process.env.PORT;
 if (port == null || port == "") {
-  port = 8000;
+  port = 3000;
 }
+app.listen(port)
 
 const db = 'mongodb+srv://ayush:5279@blogpost.uujvb.mongodb.net/blogPostdb?retryWrites=true&w=majority'
 mongoose.connect(db,{ useNewUrlParser: true,useUnifiedTopology: true})
-    .then((result) => app.listen(port))
+    .then((result) => console.log("Connected to database") )
     .catch((err) => console.log(err))
 
 
