@@ -5,10 +5,16 @@ p, h1, h2, h3, a, ul{
       text-decoration: none;
       color: #222;
     }
+    p{
+      margin-left: 60px;
+    }
 h2{
       margin-bottom: 40px;
+      margin-left: 3.5rem;
+      margin-top: 2.5rem;
     }
     h3{
+      font-size: 1.5rem;
       text-transform: capitalize;
       margin-bottom: 8px;
     }
@@ -78,3 +84,22 @@ h2{
     .blogs a:hover h3{
       color: crimson;
     }
+
+.container-fluid{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand{
+  margin-left: 2rem;
+  font-size: 1.6rem;
+}
+
+.navbar-collapse{
+  margin-top: auto;
+}
+.nav-link 
+
+.navbar-nav{
+  margin-left: 2rem;
+}
