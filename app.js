@@ -4,6 +4,7 @@ const morgan = require('morgan')
 const mongoose = require('mongoose')
 const blogRouts = require('./routers/blogs')
 
+
 app.set('view engine','ejs');
 // app.set('views','templates');
 
