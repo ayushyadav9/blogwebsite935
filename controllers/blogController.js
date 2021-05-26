@@ -31,7 +31,7 @@ const single_blog_view = (req,res)=>{
     const id = req.params.id
     Blog.findById(id)
         .then((result)=>{
-            res.render('singleBlog',{title: 'Single',blog: result})
+            res.render('singleBlog',{title: result.title,blog: result})
         })
         .catch((err)=>{
             res.render('error')
