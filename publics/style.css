@@ -97,8 +97,8 @@ h2{
 
 .navbar-collapse{
   margin-top: auto;
+  flex-grow:0;
 }
-.nav-link 
 
 .navbar-nav{
   margin-left: 2rem;
